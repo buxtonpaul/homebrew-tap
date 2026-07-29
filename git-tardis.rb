@@ -2,7 +2,7 @@ class GitTardis < Formula
   desc "Time travelling git repository inspector & historical rebase tool"
   homepage "https://github.com/buxtonpaul/git-tardis"
   url "https://github.com/buxtonpaul/git-tardis/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "4cebc2880aee8cf7608111fc18ecc4d9957faed5" # Updated on release tag
+  sha256 "addbbf9fc3c9435c6928a6d0542aceb1731576a9dc1c1edce58aea7aa6036a07"
   license "MIT"
   head "https://github.com/buxtonpaul/git-tardis.git", branch: "main"
 
@@ -13,6 +13,6 @@ class GitTardis < Formula
   end
 
   test do
-    system "#{bin}/git-tardis", "--version"
+    assert_match "git-tardis", shell_output("#{bin}/git-tardis --version")
   end
 end
