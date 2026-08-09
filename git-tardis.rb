@@ -1,8 +1,8 @@
 class GitTardis < Formula
   desc "Time travelling git repository inspector & historical rebase tool"
   homepage "https://github.com/buxtonpaul/git-tardis"
-  url "https://github.com/buxtonpaul/git-tardis/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "44aaa3ee404b14a65c36ef216c05ae42203a1972a5c3b1e25fe768c04d6e3ffa"
+  url "https://github.com/buxtonpaul/git-tardis/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "818e6a4176e3ec72e869425202d2ce2021da1cdaacb04878114fd1df6f2797ab"
   license "MIT"
   head "https://github.com/buxtonpaul/git-tardis.git", branch: "main"
 
